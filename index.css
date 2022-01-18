@@ -3,8 +3,8 @@
     padding: 0;
 
 }
-
-
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+</style>
 
 .inner {
     margin: 0 auto;
@@ -19,18 +19,22 @@
     margin: 0;
     list-style: none;
     text-align: right;
-
 }
 
 .inner ul li {
     float: none;
     display: inline-block;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
 }
 
 .inner ul li:nth-child(1) {float: left;}
 .inner ul li:nth-child(2) {float: left;}
 
 .inner ul li a {
+    background-color: white;
+    transition: 1s;
     color: black;
     font-size: 20px;
     text-transform: uppercase;
