@@ -54,7 +54,7 @@
     width: 300px;
     height: 300px;
     position: absolute;
-    left: 56%;
+    left: 50%;
     top: 15px;
     margin-left: -150px;
 } 
@@ -98,3 +98,4 @@
 
 	75% {left: -300%;}
 	100% {left: -300%;}
+}
