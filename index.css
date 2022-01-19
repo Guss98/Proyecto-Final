@@ -11,6 +11,32 @@ html {
 }
 
 
+#main_menu {
+    width: 100%;
+    position:absolute;
+    top: 0;
+}
+
+
+
+
+.logoarea {
+    width: 2px;
+    height: 2px;
+    position: relative;
+    left: 50%;
+    margin-top: -12px; 
+    margin-left: -150px;
+    display: flex;
+} 
+
+
+.logo {
+    width: 220px;
+    height: 220px;
+    
+}
+
 .inner {
     margin: 0 auto;
     width: 100%;
@@ -47,30 +73,6 @@ html {
 }
 
 .inner ul li a:hover {color:#E98980;}
-
-#main_menu {
-    width: 100%;
-    position:absolute;
-    top: 0;
-}
-
-
-
-
-.logoarea {
-    width: 100px;
-    height: 100px;
-    position: absolute;
-    left: 50%;
-    margin-top: -12px; 
-    margin-left: -150px;
-} 
-
-
-.logo {
-    width: 220px;
-    height: 220px;
-}
 
 
 #slider {
@@ -133,6 +135,13 @@ html {
   
 }
 
+/* @media (min-width: 576px) {
+    .container-text {
+
+    }
+}
+ */
+
 .p {
     font-size: 20px;
     font-weight: bold;
@@ -141,8 +150,9 @@ html {
     text-align: center;
     color: #E98980;
     
-   
 }
+
+
 
 .p2 {
     font-size: 16px;
@@ -150,6 +160,16 @@ html {
     text-align:center;
 }
 
+@media (min-width: 576px) {
+    .p2 {
+        justify-content: center;
+        text-align: center;
+    }
+    
+
+
+
+}
 
 
 .container-img {
