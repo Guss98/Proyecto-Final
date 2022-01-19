@@ -1,16 +1,21 @@
 * {
     margin: 0;
     padding: 0;
-
+    
 }
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
-</style>
+
+
+html {
+    scroll-behavior: smooth;
+}
+
 
 .inner {
     margin: 0 auto;
     width: 100%;
-    background: rgb(229,230,234);
-    background: linear-gradient(0deg, rgba(229,230,234,1) 0%, rgba(255,255,255,1) 100%);
+    background: rgb(235,234,240);
+    background: linear-gradient(0deg, rgba(235,234,240,1) 0%, rgba(255,255,255,1) 100%);
 }
 
 
@@ -45,7 +50,7 @@
 
 #main_menu {
     width: 100%;
-    position: absolute;
+    position:absolute;
     top: 0;
 }
 
@@ -53,11 +58,11 @@
 
 
 .logoarea {
-    width: 300px;
-    height: 300px;
+    width: 100px;
+    height: 100px;
     position: absolute;
     left: 50%;
-    top: 15px;
+    margin-top: -12px; 
     margin-left: -150px;
 } 
 
@@ -69,7 +74,7 @@
 
 
 #slider {
-    margin-top: 203px;
+    margin-top: 200px;
 	overflow: hidden;
     
 }
@@ -101,3 +106,53 @@
 	75% {left: -300%;}
 	100% {left: -300%;}
 }
+
+
+.container {
+    width: 100%;
+    display: flex;
+    background: rgb(255,255,255);
+    background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(235,234,240,1) 100%);
+    margin-top: 5px;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.container-text {
+    width: 30%;
+    height: 200px;
+    margin-left: -15%;
+    padding: 20px;
+    /* align-items: center; */
+    justify-content: center;
+    border-radius: 20px;
+    display: inline-block;
+    box-shadow: 5px 10px 50px -1px black;
+    font-family: 'Poppins', sans-serif;
+    background-color: #FBF4EF;
+  
+}
+
+.p {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    text-align: center;
+    color: #E98980;
+    
+   
+}
+
+.p2 {
+    font-size: 16px;
+    font-weight: 500;
+    text-align:center;
+}
+
+
+
+.container-img {
+    width: 10%;
+}
+
