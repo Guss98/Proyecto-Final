@@ -122,11 +122,9 @@ html {
             padding: 20px;
             align-items: center;
             justify-content: center;
-            border-radius: 20px;
             display: inline-block;
-            box-shadow: 5px 10px 50px -1px black;
             font-family: 'Poppins', sans-serif;
-            background-color: #FBF4EF;
+            
         
         }
 
@@ -141,7 +139,7 @@ html {
         }
 
         .container-p2 {
-            font-size: 16px;
+            font-size: 18px;
             font-weight: 500;
             text-align:center;
         }
@@ -150,3 +148,47 @@ html {
             width: 10%;
         }
 
+          .contenedor {
+              width: 100%;
+              display: flex;
+              background: rgb(255,255,255);
+              background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(235,234,240,1) 100%);
+              margin-top: 0px;
+              justify-content: space-evenly;
+              align-items: center;
+          }
+
+          .contenedor-txt {
+            width: 50%;
+            height: 250px;
+            margin-left: -15%;
+            margin-top: 10px;
+            padding: 20px;
+            align-items: center;
+            justify-content: center;
+            display: inline-block;
+            font-family: 'Poppins', sans-serif;
+          }
+
+
+          .titulo {
+            font-size: 20px;
+            font-weight: bold;
+            margin-bottom: 20px;
+            margin-top: 20px;
+            text-align: center;
+            color: #E98980;
+          }
+
+          .contenedor-instructivo {
+            font-size: 18px;
+            font-weight: 500;
+            text-align:center;
+          }
+
+          .ins-2 {
+            font-size: 18px;
+            font-weight: 500;
+            text-align:center;
+            margin-top: 10px;
+          }
