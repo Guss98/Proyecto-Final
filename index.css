@@ -149,19 +149,72 @@ html {
             width: 10%;
         }
 
-          .contenedor {
+
+
+                    .contenedor {
+                        width: 100%;
+                        display: flex;
+                        background: rgb(255,255,255);
+                        background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(235,234,240,1) 100%);
+                        margin-top: 0px;
+                        justify-content: space-evenly;
+                        align-items: center;
+                    }
+
+                    .contenedor-text {
+                        width: 30%;
+                        height: 250px;
+                        margin-left: -15%;
+                        margin-top: 10px;
+                        padding: 20px;
+                        align-items: center;
+                        justify-content: center;
+                        display: inline-block;
+                        font-family: 'Poppins', sans-serif;
+                        
+                    
+                    }
+
+                    .contenedor-title {
+                        font-size: 20px;
+                        font-weight: bold;
+                        margin-bottom: 20px;
+                        margin-top: 20px;
+                        text-align: center;
+                        color: #E98980;
+                        
+                    }
+
+                    .container-instructivo {
+                        font-size: 18px;
+                        font-weight: 500;
+                        text-align:center; 
+                    }
+
+                    .helicoptero {
+                        width: 25%;
+                        margin-top: 80px;
+                        border-radius: 10px;
+                        
+                    }
+
+
+
+
+
+
+          /* .contenedor {
               width: 100%;
               display: flex;
               background: rgb(255,255,255);
               background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(235,234,240,1) 100%);
               margin-top: 50px;
-              margin-bottom: 50px;
               justify-content: space-evenly;
               align-items: center;
           }
 
           .contenedor-txt {
-            width: 50%;
+            width: 40%;
             height: 250px;
             margin-left: -15%;
             margin-top: 10px;
@@ -170,6 +223,7 @@ html {
             justify-content: center;
             display: inline-block;
             font-family: 'Poppins', sans-serif;
+            letter-spacing: 1;
           }
 
 
@@ -188,13 +242,10 @@ html {
             text-align:center;
           }
 
-          .ins-2 {
-            font-size: 18px;
-            font-weight: 500;
-            text-align:center;
-            margin-top: 10px;
-            margin-bottom: 50px;
+          .helicoptero {
+              width: 10%;
           }
+           */
 
             .cont-cards {
                 position: absolute;
@@ -213,7 +264,7 @@ html {
                 position: relative;
                 max-width: 300px;
                 height: 200px;
-                margin: 50px 10px;
+                margin: 70px 10px;
                 padding: 20px 15px;
                 display: flex;
                 flex-direction: column;
@@ -246,7 +297,8 @@ html {
                 color: #E98980;
                 visibility: hidden;
                 opacity: 0;
-                transition: 0.3s ease-in-out;              
+                transition: 0.3s ease-in-out;        
+                background-color: aqua;      
             }
 
             .cont-cards .cards:hover .txt {
