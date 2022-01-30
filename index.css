@@ -12,36 +12,34 @@ html {
 
 #main_menu {
     width: 100%;
-    position:absolute;
+    position:sticky;
+    z-index: 1;
     top: 0;
-    
 }
 
 .logoarea {
     width: 2px;
     height: 2px;
     position: absolute;
-    left: 50%;
-    margin-top: -12px; 
-    margin-left: -150px;
+    margin-top: -30px; 
     display: flex;
 } 
 
 .logo {
-    width: 220px;
-    height: 220px;
-    
+    width: 130px;
+    height: 130px;
 }
 
 .inner {
-    margin: 0 auto;
+    
     width: 100%;
-    background: rgb(235,234,240);
-    background: linear-gradient(0deg, rgba(235,234,240,1) 0%, rgba(255,255,255,1) 100%);
+    height: 70px;
+    background: rgb(252,252,252);
+background: linear-gradient(0deg, rgba(252,252,252,1) 0%, rgba(242,227,231,1) 50%);
 }
 
 .inner ul {
-    padding: 80px;
+    padding: 15px;
     margin: 0;
     list-style: none;
     text-align: right;
@@ -54,9 +52,6 @@ html {
     font-size: 20px;
     font-weight: 600;
 }
-
-.inner ul li:nth-child(1) {float: left;}
-.inner ul li:nth-child(2) {float: left;}
 
 .inner ul li a {
     transition: 1s;
@@ -72,7 +67,6 @@ html {
 
 
     #slider {
-        margin-top: 200px;
         overflow: hidden;
         
     }
@@ -117,7 +111,6 @@ html {
 
         .container-text {
             width: 30%;
-            height: 250px;
             margin-left: -15%;
             margin-top: 10px;
             padding: 20px;
@@ -133,7 +126,7 @@ html {
             font-size: 20px;
             font-weight: bold;
             margin-bottom: 20px;
-            margin-top: 20px;
+            margin-top: 40px;
             text-align: center;
             color: #E98980;
             
@@ -146,7 +139,10 @@ html {
         }
 
         .container-img {
-            width: 10%;
+            width: 245px;
+            height: 245px;
+            object-fit: contain;
+            margin-top: 50px;
         }
 
 
@@ -163,7 +159,6 @@ html {
 
                     .contenedor-text {
                         width: 30%;
-                        height: 250px;
                         margin-left: -15%;
                         margin-top: 10px;
                         padding: 20px;
@@ -198,55 +193,6 @@ html {
                         
                     }
 
-
-
-
-
-
-          /* .contenedor {
-              width: 100%;
-              display: flex;
-              background: rgb(255,255,255);
-              background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(235,234,240,1) 100%);
-              margin-top: 50px;
-              justify-content: space-evenly;
-              align-items: center;
-          }
-
-          .contenedor-txt {
-            width: 40%;
-            height: 250px;
-            margin-left: -15%;
-            margin-top: 10px;
-            padding: 20px;
-            align-items: center;
-            justify-content: center;
-            display: inline-block;
-            font-family: 'Poppins', sans-serif;
-            letter-spacing: 1;
-          }
-
-
-          .titulo {
-            font-size: 20px;
-            font-weight: bold;
-            margin-bottom: 20px;
-            margin-top: 20px;
-            text-align: center;
-            color: #E98980;
-          }
-
-          .contenedor-instructivo {
-            font-size: 18px;
-            font-weight: 500;
-            text-align:center;
-          }
-
-          .helicoptero {
-              width: 10%;
-          }
-           */
-
             .cont-cards {
                 position: absolute;
                 margin-top: 100px;
@@ -264,7 +210,7 @@ html {
                 position: relative;
                 max-width: 300px;
                 height: 200px;
-                margin: 70px 10px;
+                margin: 30px 10px;
                 padding: 20px 15px;
                 display: flex;
                 flex-direction: column;
@@ -292,13 +238,13 @@ html {
             .cont-cards .cards .txt {
                 position: relative;
                 margin-top: -100px;
-                padding: 30px 15px;
+                padding: 25px 15px;
+                margin-left: 35px;
                 text-align: center;
-                color: #E98980;
+                color: #23395B;
                 visibility: hidden;
                 opacity: 0;
-                transition: 0.3s ease-in-out;        
-                background-color: aqua;      
+                transition: 0.3s ease-in-out;                     
             }
 
             .cont-cards .cards:hover .txt {
@@ -306,5 +252,14 @@ html {
                 opacity: 1;
                 margin-top: -50px;
                 transition-delay: 0.2s;
+                background-color: #E4D8E9;
+                border-radius: 10px;
             }
 
+
+            .text-cards {
+                font-size: 18px;
+                font-weight: 500;
+                text-align:center;
+                padding: 50px;
+            }
