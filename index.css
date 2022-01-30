@@ -35,7 +35,7 @@ html {
     width: 100%;
     height: 70px;
     background: rgb(252,252,252);
-background: linear-gradient(0deg, rgba(252,252,252,1) 0%, rgba(242,227,231,1) 50%);
+    background: linear-gradient(0deg, rgba(252,252,252,1) 0%, rgba(242,227,231,1) 50%);
 }
 
 .inner ul {
@@ -263,3 +263,6 @@ background: linear-gradient(0deg, rgba(252,252,252,1) 0%, rgba(242,227,231,1) 50
                 text-align:center;
                 padding: 50px;
             }
+
+
+               
