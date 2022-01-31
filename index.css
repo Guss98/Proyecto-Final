@@ -1,6 +1,6 @@
 * {
     margin: 0;
-    padding: 0;
+    /* padding: 0; */
     
 }
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
@@ -194,8 +194,7 @@ html {
                     }
 
             .cont-cards {
-                position: absolute;
-                margin-top: 100px;
+                /* position: absolute; */
                 width: 100%;
                 display: flex;
                 justify-content: center;
@@ -218,7 +217,7 @@ html {
             }
 
             .cont-cards .cards:hover {
-                height: 400px;
+                height: 200px;
             }
 
             .cont-cards .cards .imgbx {
@@ -227,7 +226,7 @@ html {
                 height: 200px;
                 top: -40px;
                 left: 20px;
-                z-index: 1;
+                z-index: 0;
             }
 
             .cont-cards .cards .imgbx img {
@@ -264,5 +263,71 @@ html {
                 padding: 50px;
             }
 
+            .cont {
+                text-decoration: none;
+            }
 
-               
+            .footer{
+            background: rgb(240,235,235);
+            background: linear-gradient(0deg, rgba(240,235,235,1) 57%, rgba(224,224,224,1) 100%);
+            width: 100%;    
+            }
+
+            .footer .grupo-1 {
+                width: 100%;
+                max-width: 1200px;
+                margin: auto;
+                display: grid;
+                grid-template-columns: repeat(3, 1fr);
+                grid-gap: 50px;
+                padding: 45px 0px;
+            }
+             
+            .footer .grupo-1 .box figure {
+                width: 100%;
+                height: 100%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+
+            .footer .grupo-1 .box figure img {
+                width: 250px;
+                height: 250px;
+            }
+
+            .footer .grupo-1 .box h2 {
+                margin-top: 55px;
+                margin-bottom: 25px;
+                font-size: 20px;
+                font-family: 'Poppins', sans-serif;
+                color: #E98980;
+            }
+
+            .footer .grupo-1 .box p {
+                font-family: 'Poppins', sans-serif;
+                font-weight: 700;
+            }
+
+            .footer .grupo-1 .box .red-social a {
+                display: inline-block;
+                text-decoration: none;
+                width: 30px;
+                height: 45px;
+                line-height: 45px;
+                margin-right: -5px;
+                text-align: center;
+                transition: all 300ms ease;
+            }
+
+            .footer .grupo-1 .box .red-social a:hover {
+                color: #E98980;
+            }
+
+            .footer .grupo-2 {
+                background: #5D6283;
+                padding: 15px 10px;
+                text-align: center;
+                color: white;
+                font-family: 'Poppins', sans-serif;
+            } 
