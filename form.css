@@ -84,8 +84,8 @@ p {
 @media(min-width:1440px) 
 {
     .formulario {
-        margin: auto;
-        width: 50%;
+        margin: 50px;
+        width: 100%;
         margin-top: 150px;
         margin-right: 30px;
     }
