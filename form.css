@@ -3,7 +3,7 @@ body {
     margin: 0;
     background-image: url(./Imagenes/impresora-3D.jpeg);
     background-size: cover;
-    background-attachment: scroll;
+    background-attachment: fixed;
 }
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
@@ -19,10 +19,9 @@ body {
 .formulario {
     background-color: white;
     margin-top: 120px;
-    float: left;
-    margin-left: 30px;
+    margin-left: 50px;
     padding: 3px;
-    width: 30%;
+    width: 55%;
     border-radius: 20px;
 }
 
@@ -88,6 +87,8 @@ p {
         width: 100%;
         margin-top: 150px;
         margin-right: 30px;
+        justify-content: center;
+        align-items: center;
     }
 }
 
