@@ -84,12 +84,12 @@ p {
 @media(max-width:768px) 
 {
     .formulario {
-        margin: 10px;
+        margin-top: 10px;
         width: 60%;
         margin-top: 150px;
         margin-right: 30px;
-        justify-content: center;
-        align-items: center;
+        /* justify-content: center;
+        align-items: center; */
     }
 }
 
