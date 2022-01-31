@@ -60,6 +60,7 @@ i{
     padding: 15px 20px;
     border-radius: 5px;
     cursor: pointer;
+    justify-content: center;
 }
 
 .button:hover {
